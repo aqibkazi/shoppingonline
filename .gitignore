@@ -1,0 +1,6 @@
+*.jar
+*.war
+*.ear
+*.class
+/ecomm/target
+/ecomm_backend/target
