@@ -34,6 +34,7 @@
   </head>
 
   <body>
+  <div class="container">
 	<!-- header containing nav bar -->
   	<%@include file="./shared/header.jsp" %>
 
@@ -60,6 +61,6 @@
     <%-- Load JQuery before bootstrap --%>
 	<script src="${js}/jquery.js"></script>
 	<script src="${js}/bootstrap.js"></script>	 
-
+</div>
   </body>
 </html>
