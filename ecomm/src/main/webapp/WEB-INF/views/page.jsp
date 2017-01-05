@@ -21,8 +21,8 @@
    
     <title>Ecommerce - ${title}</title>
     
-    <link href="${css}/bootstrap.css" rel="stylesheet" />
-    <link href="${css}/bootstrap-theme.css" rel="stylesheet" />
+    <link href="${css}/bootstrap-united.css" rel="stylesheet" />
+    <%-- <link href="${css}/bootstrap-theme.css" rel="stylesheet" /> --%>
     <link href="${css}/app.css" rel="stylesheet" />
        
 
