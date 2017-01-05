@@ -20,7 +20,9 @@
 		<property name="suffix" value=".jsp"/>
 	</bean>
 	
-	<!-- To Load Static Resources -->
+	<!-- To load static resources from a specific folder
+		in our cases it would be resources folder only inside webapp
+	-->
 	<mvc:resources location="/resources/" mapping="/resources/**">
 	</mvc:resources>
 </beans>

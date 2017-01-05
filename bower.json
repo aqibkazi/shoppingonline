@@ -1,0 +1,18 @@
+{
+  "name": "Family",
+  "authors": [
+    "Aqib Kazi <aqibkazi97@gmail.com>"
+  ],
+  "description": "This is my eShopping project!",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
