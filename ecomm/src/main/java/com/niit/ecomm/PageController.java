@@ -1,6 +1,7 @@
 package com.niit.ecomm;
 
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
@@ -36,11 +37,55 @@ public class PageController {
 		mv.addObject("title", "contact");
 		return mv;
 	
-	
 	}
 	
+	@RequestMapping(value = { "/product/{id}" })
+	public ModelAndView product(@PathVariable("id") int id) {
+		
+		ModelAndView modelAndView = new ModelAndView("page");
+		modelAndView.addObject("title", "Product");
+		modelAndView.addObject("product", productDAO.get(1));
+		modelAndView.addObject("ifUserClickedProduct", true);
+		return modelAndView;
+	}
+	
+	@RequestMapping(value = { "/product/all" })
+	public ModelAndView productList() {
+		
+		ModelAndView modelAndView = new ModelAndView("page");
+		modelAndView.addObject("title", "All Products");
+		modelAndView.addObject("ifUserClickedProductList", true);
+		modelAndView.addObject("products", productDAO.list());
+		return modelAndView;
+	}
 
-}	
+	@RequestMapping(value = { "/login" })
+	public ModelAndView login() {
+		
+		ModelAndView modelAndView = new ModelAndView("page");
+		modelAndView.addObject("title", "Login");
+		modelAndView.addObject("ifUserClickedLogin", true);
+		return modelAndView;
+	}
+	
+	@RequestMapping(value = { "/register" })
+	public ModelAndView register() {
+		
+		ModelAndView modelAndView = new ModelAndView("page");
+		modelAndView.addObject("title", "Register");
+		modelAndView.addObject("ifUserClickedRegister", true);
+		return modelAndView;
+	}
+	
+	@RequestMapping(value = { "test" })
+	public ModelAndView test() {
+		
+		ModelAndView mv = new ModelAndView("test");
+		return mv;
+	}
+}
+
+
 	
 
 
