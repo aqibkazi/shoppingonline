@@ -38,26 +38,7 @@ public class PageController {
 		return mv;
 	
 	}
-	
-	@RequestMapping(value = { "/product/{id}" })
-	public ModelAndView product(@PathVariable("id") int id) {
-		
-		ModelAndView modelAndView = new ModelAndView("page");
-		modelAndView.addObject("title", "Product");
-		modelAndView.addObject("product", productDAO.get(1));
-		modelAndView.addObject("ifUserClickedProduct", true);
-		return modelAndView;
-	}
-	
-	@RequestMapping(value = { "/product/all" })
-	public ModelAndView productList() {
-		
-		ModelAndView modelAndView = new ModelAndView("page");
-		modelAndView.addObject("title", "All Products");
-		modelAndView.addObject("ifUserClickedProductList", true);
-		modelAndView.addObject("products", productDAO.list());
-		return modelAndView;
-	}
+
 
 	@RequestMapping(value = { "/login" })
 	public ModelAndView login() {

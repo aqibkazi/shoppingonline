@@ -55,8 +55,8 @@
   <%@include file="contact.jsp" %>
   </c:if>
     
-    <!-- Footer here -->	
-    <%@include file="./shared/footer.jsp" %>
+  <!-- Footer here -->	
+   <%@include file="./shared/footer.jsp" %>
     
     <%-- Load JQuery before bootstrap --%>
 	<script src="${js}/jquery.js"></script>
