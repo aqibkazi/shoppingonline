@@ -40,31 +40,24 @@ public class PageController {
 	}
 
 
-	@RequestMapping(value = { "/login" })
-	public ModelAndView login() {
-		
-		ModelAndView modelAndView = new ModelAndView("page");
-		modelAndView.addObject("title", "Login");
-		modelAndView.addObject("ifUserClickedLogin", true);
-		return modelAndView;
-	}
-	
-	@RequestMapping(value = { "/register" })
-	public ModelAndView register() {
-		
-		ModelAndView modelAndView = new ModelAndView("page");
-		modelAndView.addObject("title", "Register");
-		modelAndView.addObject("ifUserClickedRegister", true);
-		return modelAndView;
-	}
-	
-	@RequestMapping(value = { "test" })
-	public ModelAndView test() {
-		
-		ModelAndView mv = new ModelAndView("test");
+	@RequestMapping(value = "/register")
+	public ModelAndView signup() {
+		ModelAndView mv = new ModelAndView("page");
+		mv.addObject("title", "register");
+		mv.addObject("ifUserClickedRegister", true);
 		return mv;
 	}
+	
+	@RequestMapping(value = "/login")
+	public ModelAndView loign() {
+		ModelAndView mv = new ModelAndView("page");
+		mv.addObject("title", "Login");
+		mv.addObject("ifUserClickedLogin", true);
+		return mv;
+	}
+	/* End of the loading product page */
 }
+	
 
 
 	

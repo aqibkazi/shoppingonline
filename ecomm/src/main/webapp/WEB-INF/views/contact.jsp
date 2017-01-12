@@ -1,14 +1,62 @@
-    <!-- Footer -->
-  <footer class="w3-padding-64 w3-light-black w3-big w3-center" id="footer">
-    <div class="w3-row-padding">
-      <div class="w3-col s4">
-        <h4>Contact</h4>
-        <p>Questions? Go ahead.</p>
-        <form action="form.asp" target="_blank">
-          <p><input class="w3-input w3-border" type="text" placeholder="Name" name="Name" required></p>
-          <p><input class="w3-input w3-border" type="text" placeholder="Email" name="Email" required></p>
-          <p><input class="w3-input w3-border" type="text" placeholder="Subject" name="Subject" required></p>
-          <p><input class="w3-input w3-border" type="text" placeholder="Message" name="Message" required></p>
-          <button type="submit" class="w3-btn-block w3-padding w3-black">Send</button>
-        </form>
-      </div>
+<div class="container"> 
+	<hr>
+	<h1 class="text-center">
+		Contact Us<small></small>
+	</h1>
+	<hr>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="well well-sm">
+					<form>
+					
+	<div class="row">
+							<div class="col-md-6">
+								<div class="form-group">
+									<label for="name"> Name</label> <input type="text"
+										class="form-control" id="name" placeholder="Enter Full Name"
+										required="required" />
+								</div>
+								<div class="form-group">
+									<label for="email"> Email Address</label>
+									<div class="input-group">
+										<span class="input-group-addon"><span
+											class="glyphicon glyphicon-envelope"></span> </span> <input
+											type="email" class="form-control" id="email"
+											placeholder="Enter email" required="required" />
+									</div>
+					     </div>
+								<div class="form-group">
+									<label for="name"> Message</label> <input type="text"
+									 class="form-control" id="name" placeholder="Message"
+									 required="required" />
+									 
+								</div>
+							</div>
+					     
+							<div class="col-md-12 text-left">
+								<button id="B1size" type="submit" class="btn btn-primary"
+									id="btnContactUs">Send Message</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="col-md-6">
+					<form class="well">
+						<legend>
+							<span class="glyphicon glyphicon-home"></span>&nbsp;&nbsp;Address
+						</legend>
+						<address>
+							<strong>WebTemp, Inc.</strong><br> xyz, xyz,<br> xyz,
+							xyz.<br> <abbr title="Phone"> Contact No :</abbr> (123) 0909098
+						</address>
+						<address>
+							<strong>Aqib Kazi</strong><br> <a href="mailto:#">aqib.kazi@gmail.com</a>
+						</address>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- End Of Contain -->

@@ -54,7 +54,18 @@
    <c:if test="${ifUserClickedContact == true}">
   <%@include file="contact.jsp" %>
   </c:if>
-    
+  
+   
+  <%-- Load login --%>
+   <c:if test="${ifUserClickedLogin == true}">
+  <%@include file="login.jsp" %>
+  </c:if>
+  
+  <%-- Load register --%>
+   <c:if test="${ifUserClickedRegister == true}">
+  <%@include file="register.jsp" %>
+  </c:if>
+ 
   <!-- Footer here -->	
    <%@include file="./shared/footer.jsp" %>
     
