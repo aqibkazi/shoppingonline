@@ -16,6 +16,9 @@
             <li><a href="${contextPath}/contact">Contact</a></li>
             <li><a href="${contextPath}/login">Login</a></li>
             <li><a href="${contextPath}/register">Register</a></li>   
+            <li><a href="${contextPath}/productlist">Product List</a></li>   
+            <li><a href="${contextPath}/cart">Cart</a></li>   
+                
           </ul>
         </div><!--/.nav-collapse -->
       </div>

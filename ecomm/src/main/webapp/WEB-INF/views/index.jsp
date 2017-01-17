@@ -1,13 +1,11 @@
-    <div class="container">
+ <div class="container">
 
         <div class="row">
-
-            
+  
             <div class="col-md-12">
 
                 <div class="row carousel-holder">
 
-                    <div class="col-md-12">
                         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
                             <ol class="carousel-indicators">
                                 <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
@@ -166,8 +164,13 @@
                                     <span class="glyphicon glyphicon-star"></span>
                                     <span class="glyphicon glyphicon-star-empty"></span>
                                     <span class="glyphicon glyphicon-star-empty"></span>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    
+                             </div>
+				<!-- /Carousel -->
+			</div>
+			<!-- /col-md -->
+		</div>
+		<!-- panel-body -->
+	</div>
+	<!-- panel -->
+</div>
+<!-- /row -->

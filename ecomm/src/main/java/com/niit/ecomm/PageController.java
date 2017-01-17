@@ -49,10 +49,26 @@ public class PageController {
 	}
 	
 	@RequestMapping(value = "/login")
-	public ModelAndView loign() {
+	public ModelAndView login() {
 		ModelAndView mv = new ModelAndView("page");
 		mv.addObject("title", "Login");
 		mv.addObject("ifUserClickedLogin", true);
+		return mv;
+	}
+	
+	@RequestMapping(value = "/productlist")
+	public ModelAndView productlist() {
+		ModelAndView mv = new ModelAndView("page");
+		mv.addObject("title", "Product List");
+		mv.addObject("ifUserClickedProductList", true);
+		return mv;
+	}
+	
+	@RequestMapping(value = "/cart")
+	public ModelAndView cart() {
+		ModelAndView mv = new ModelAndView("page");
+		mv.addObject("title", "Cart");
+		mv.addObject("ifUserClickedCart", true);
 		return mv;
 	}
 	/* End of the loading product page */

@@ -65,6 +65,17 @@
    <c:if test="${ifUserClickedRegister == true}">
   <%@include file="register.jsp" %>
   </c:if>
+  
+    <%-- Load product list --%>
+   <c:if test="${ifUserClickedProductList == true}">
+  <%@include file="productlist.jsp" %>
+  </c:if>
+  
+    <%-- Load cart --%>
+   <c:if test="${ifUserClickedCart == true}">
+  <%@include file="cart.jsp" %>
+  </c:if>
+  
  
   <!-- Footer here -->	
    <%@include file="./shared/footer.jsp" %>
