@@ -34,8 +34,7 @@
   </head>
 
   <body>
-  <div class="container">
-	<!-- header containing nav bar -->
+  <!-- header containing nav bar -->
   	<%@include file="./shared/header.jsp" %>
 
 
@@ -76,7 +75,19 @@
   <%@include file="cart.jsp" %>
   </c:if>
   
- 
+  	<!-- To Load Admin Page -->
+	<c:if test="${ifUserClickedAdmin == true}">	
+	<%@include file="./admin/adminpanels.jsp"%>
+	</c:if>
+	
+	 <!-- To Load User Page -->
+	<c:if test="${ifUserClickedUser == true}">	
+	<%@include file="./user/userpanel.jsp"%>
+	</c:if>
+
+ 	
+	
+
   <!-- Footer here -->	
    <%@include file="./shared/footer.jsp" %>
     

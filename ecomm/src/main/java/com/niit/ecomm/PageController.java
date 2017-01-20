@@ -1,7 +1,6 @@
 package com.niit.ecomm;
 
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
@@ -71,6 +70,23 @@ public class PageController {
 		mv.addObject("ifUserClickedCart", true);
 		return mv;
 	}
+	
+	@RequestMapping(value = "/adminpanels")
+	public ModelAndView admin() {
+		ModelAndView mv = new ModelAndView("page");
+		mv.addObject("title", "admin");
+		mv.addObject("ifUserClickedAdmin", true);
+		return mv;
+	}
+	
+	@RequestMapping(value = "/userpanels")
+	public ModelAndView user() {
+		ModelAndView mv = new ModelAndView("page");
+		mv.addObject("title", "admin");
+		mv.addObject("ififUserClickedUser", true);
+		return mv;
+	}
+	
 	/* End of the loading product page */
 }
 	

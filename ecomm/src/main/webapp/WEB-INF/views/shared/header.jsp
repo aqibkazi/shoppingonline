@@ -1,4 +1,4 @@
-  <nav class="navbar navbar-default navbar-fixed-top">
+<nav class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -15,13 +15,22 @@
             <li><a href="${contextPath}/about">About</a></li>
             <li><a href="${contextPath}/contact">Contact</a></li>
             <li><a href="${contextPath}/login">Login</a></li>
-            <li><a href="${contextPath}/register">Register</a></li>   
-            <li><a href="${contextPath}/productlist">Product List</a></li>   
-            <li><a href="${contextPath}/cart">Cart</a></li>   
+            <li><a href="${contextPath}/register">Register</a></li>
+            <li><a href="${contextPath}/productlist">Product List</a></li> 
+            <li><a href="${contextPath}/cart">Cart</a></li>
+            <li><a href="${contextPath}/adminpanels">Admin Panel</a></li>
+         	<li><a href="${contextPath}/userpanels">User Panel</a></li>
+         	
+                    </ul>
+                    <form class="navbar-form navbar-left">
+				<div class="input-group">
+					<input type="text" class="form-control" placeholder="Search Here Anything">
+					<span class="input-group-btn">
+						<button class="btn btn-primary" type="button">
+							<span class="glyphicon glyphicon-search"></span>
+						</button>
                 
           </ul>
         </div><!--/.nav-collapse -->
       </div>
     </nav>
-  
- 

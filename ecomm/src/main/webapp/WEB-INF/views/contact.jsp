@@ -47,7 +47,7 @@
 							<span class="glyphicon glyphicon-home"></span>&nbsp;&nbsp;Address
 						</legend>
 						<address>
-							<strong>WebTemp, Inc.</strong><br> xyz, xyz,<br> xyz,
+							<strong>Project Name, Inc.</strong><br> xyz, xyz,<br> xyz,
 							xyz.<br> <abbr title="Phone"> Contact No :</abbr> (123) 0909098
 						</address>
 						<address>

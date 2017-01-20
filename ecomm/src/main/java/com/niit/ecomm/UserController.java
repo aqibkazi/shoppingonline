@@ -47,8 +47,5 @@ public class UserController {
 		return modelAndView;
 	}
 	
-	@RequestMapping(value="user.do")
-	public String doAction(@ModelAttribute User user, BindingResult result, @RequestParam String action ){
-		return "user";
 	}
-}
+

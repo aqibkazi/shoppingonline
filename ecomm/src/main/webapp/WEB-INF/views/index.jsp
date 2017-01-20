@@ -45,7 +45,7 @@
                                 </h4>
                                 <p>This is Reebok shoes</a>.</p>
                             </div>
-                            <div class="ratings">
+                           <div class="ratings">
                                 <p class="pull-right">15 reviews</p>
                                 <p>
                                     <span class="glyphicon glyphicon-star"></span>
@@ -68,17 +68,18 @@
                                 <p>This is Adidas T-shirt.</p>
                             </div>
                             <div class="ratings">
-                                <p class="pull-right">12 reviews</p>
+                                <p class="pull-right">15 reviews</p>
                                 <p>
                                     <span class="glyphicon glyphicon-star"></span>
                                     <span class="glyphicon glyphicon-star"></span>
                                     <span class="glyphicon glyphicon-star"></span>
                                     <span class="glyphicon glyphicon-star"></span>
-                                    <span class="glyphicon glyphicon-star-empty"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
                                 </p>
                             </div>
                         </div>
                     </div>
+                          
 
                     <div class="col-sm-4 col-lg-4 col-md-4">
                         <div class="thumbnail">
@@ -89,14 +90,14 @@
                                 </h4>
                                 <p>This is Roadster Jeans.</p>
                             </div>
-                            <div class="ratings">
-                                <p class="pull-right">31 reviews</p>
+                           <div class="ratings">
+                                <p class="pull-right">15 reviews</p>
                                 <p>
                                     <span class="glyphicon glyphicon-star"></span>
                                     <span class="glyphicon glyphicon-star"></span>
                                     <span class="glyphicon glyphicon-star"></span>
                                     <span class="glyphicon glyphicon-star"></span>
-                                    <span class="glyphicon glyphicon-star-empty"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
                                 </p>
                             </div>
                         </div>
@@ -117,8 +118,8 @@
                                     <span class="glyphicon glyphicon-star"></span>
                                     <span class="glyphicon glyphicon-star"></span>
                                     <span class="glyphicon glyphicon-star"></span>
-                                    <span class="glyphicon glyphicon-star-empty"></span>
-                                    <span class="glyphicon glyphicon-star-empty"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
                                 </p>
                             </div>
                         </div>
@@ -133,14 +134,14 @@
                                 </h4>
                                 <p>This is a Seven shoes.</p>
                             </div>
-                            <div class="ratings">
-                                <p class="pull-right">18 reviews</p>
+                          <div class="ratings">
+                                <p class="pull-right">15 reviews</p>
                                 <p>
                                     <span class="glyphicon glyphicon-star"></span>
                                     <span class="glyphicon glyphicon-star"></span>
                                     <span class="glyphicon glyphicon-star"></span>
                                     <span class="glyphicon glyphicon-star"></span>
-                                    <span class="glyphicon glyphicon-star-empty"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
                                 </p>
                             </div>
                         </div>
@@ -157,15 +158,18 @@
                                 <p>This is a Tommy Hilfiger Shirt .</p>
                             </div>
                             <div class="ratings">
-                                <p class="pull-right">11 reviews</p>
+                                <p class="pull-right">15 reviews</p>
                                 <p>
                                     <span class="glyphicon glyphicon-star"></span>
                                     <span class="glyphicon glyphicon-star"></span>
                                     <span class="glyphicon glyphicon-star"></span>
-                                    <span class="glyphicon glyphicon-star-empty"></span>
-                                    <span class="glyphicon glyphicon-star-empty"></span>
-                             </div>
-				<!-- /Carousel -->
+                                    <span class="glyphicon glyphicon-star"></span>
+                                    <span class="glyphicon glyphicon-star"></span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                            				<!-- /Carousel -->
 			</div>
 			<!-- /col-md -->
 		</div>
