@@ -145,6 +145,8 @@
                                             <a href="cart.html" class="btn btn-primary">
                                             					<span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>&nbsp;
                                             Add to cart</a>
+                                            </div>
+                                         <div>
                                     </div>
                                 </div>
                             </div>

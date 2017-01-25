@@ -43,12 +43,12 @@
 										</div>
 
 										<div class="form-group">
-											<label for="username"> Choose a Developer </label>
+											<label for="username"> Choose a Seller </label>
 											<div class="input-group">
 												<span class="input-group-addon"><span
 													class="fa fa-code"></span> </span> <select id="developer"
 													name="developer" class="form-control" required="required">
-													<option value="na" selected="">Add a Developer </option>
+													<option value="na" selected="">Add a Seller </option>
 													<option value="1"></option>
 													<option value="2"></option>
 												</select>
@@ -108,11 +108,11 @@
 
 				</div>
 				<!--End Of Add Product-->
-				<!--Developer-->
-				<div class="tab-pane" id="Developer">
+				<!--Seller-->
+				<div class="tab-pane" id="Seller">
 					<h3 class="text-center">
 						<small style="font-size: 23px"><span
-							class="fa fa-database"></span></small>&nbsp; Add a Developer
+							class="fa fa-database"></span></small>&nbsp; Add a Seller
 					</h3>
 					<hr class="small">
 					<div class="col-md-2">

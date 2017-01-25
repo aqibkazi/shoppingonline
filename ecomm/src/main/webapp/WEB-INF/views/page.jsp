@@ -84,10 +84,7 @@
 	<c:if test="${ifUserClickedUser == true}">	
 	<%@include file="./user/userpanel.jsp"%>
 	</c:if>
-
- 	
 	
-
   <!-- Footer here -->	
    <%@include file="./shared/footer.jsp" %>
     

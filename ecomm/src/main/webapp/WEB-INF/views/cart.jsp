@@ -10,8 +10,8 @@
                         <tr>
                             <th></th>
                             <th>Product</th>
-                            <th>Price</th>
                             <th>Quantity</th>
+                            <th>Price</th>
                               <th></th>
                         </tr>
                     </thead>
@@ -21,10 +21,25 @@
                                 <a href="#"> <img src="${images}/8.jpg" alt="Product image" class="img-responsive"></a>
                             </td>
                             <td class='product-name'><a href='#'>Cotton Shirt</a></td>
-                            <td class="product-price">	&#8377 349</td>
                             <td class="product-quantity">
                                 <input type="number" value="1" min="1" class="fl qty-text" name="quantity">
                             </td>
+                             <td class="product-price">	&#8377 349</td>
+                             <td class="col-md-2">
+							<div class="col-md-6">
+								<button type="button" class="btn btn-info btn-sm"
+									data-toggle="popover" title="Add To Wish List">
+									<span class="glyphicon glyphicon-heart" aria-hidden="true"></span>
+								</button>
+								</div>
+							<div class="col-md-2">
+								<button type="button" class="btn btn-danger btn-sm"
+									data-toggle="popover" title="Remove">
+									<span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
+								</button>
+							</div>
+						</td>
+					</tr>
                           
                             </td>
                             <td class='product-delete'><a href='#' data-toggle='tooltip' data-placement='top' title='Remove this item'><i class="fa fa-times"></i></a></td>
@@ -34,10 +49,26 @@
                                 <a href="#"> <img src="${images}/7.jpg" alt="Product image" class="img-responsive"></a>
                             </td>
                             <td class='product-name'><a href='#'>Reebok Cotton T-Shirt</a></td>
-                            <td class="product-price">&#8377 599</td>
                             <td class="product-quantity">
                                 <input type="number" value="1" min="1" class="fl qty-text" name="quantity">
                             </td>
+		                     <td class="product-price">&#8377 599</td>
+		                      <td class="col-md-2">
+							<div class="col-md-6">
+								<button type="button" class="btn btn-info btn-sm"
+									data-toggle="popover" title="Add To Wish List">
+									<span class="glyphicon glyphicon-heart" aria-hidden="true"></span>
+								</button>
+								</div>
+							<div class="col-md-2">
+								<button type="button" class="btn btn-danger btn-sm"
+									data-toggle="popover" title="Remove">
+									<span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
+								</button>
+							</div>
+						</td>
+					</tr>
+                            
                          
                             </td>
                             <td class='product-delete'><a href='#' data-toggle='tooltip' data-placement='top' title='Remove this item'><i class="fa fa-times"></i></a></td>
@@ -46,10 +77,25 @@
                             <td class="product-image">
                                 <a href="#"> <img src="${images}/6.jpg" alt="Product image" class="img-responsive"></a>                            </td>
                             <td class='product-name'><a href='#'>Puma Mens Cotton T-shirt</a></td>
-                            <td class="product-price">&#8377 649</td>
                             <td class="product-quantity">
                                 <input type="number" value="1" min="1" class="fl qty-text" name="quantity">
                             </td>
+			                 <td class="product-price">&#8377 649</td>
+                             <td class="col-md-2">
+							<div class="col-md-6">
+								<button type="button" class="btn btn-info btn-sm"
+									data-toggle="popover" title="Add To Wish List">
+									<span class="glyphicon glyphicon-heart" aria-hidden="true"></span>
+								</button>
+								</div>
+							<div class="col-md-2">
+								<button type="button" class="btn btn-danger btn-sm"
+									data-toggle="popover" title="Remove">
+									<span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
+								</button>
+							</div>
+						</td>
+					</tr>
                           
                             </td>
                             <td class='product-delete'><a href='#' data-toggle='tooltip' data-placement='top' title='Remove this item'><i class="fa fa-times"></i></a></td>
@@ -64,21 +110,6 @@
 	<div class="panel panel-default">
 		<div class="panel-heading">
 		</td>
-						<td class="col-md-2">
-							<div class="col-md-6">
-								<button type="button" class="btn btn-info btn-sm"
-									data-toggle="popover" title="Add To Wish List">
-									<span class="glyphicon glyphicon-heart" aria-hidden="true"></span>
-								</button>
-							</div>
-							<div class="col-md-2">
-								<button type="button" class="btn btn-danger btn-sm"
-									data-toggle="popover" title="Remove">
-									<span class="glyphicon glyphicon-trash" aria-hidden="true"></span>
-								</button>
-							</div>
-						</td>
-					</tr>
 	
 			<div class="text-right">
 				<button type="submit" class="btn btn-default" id="">

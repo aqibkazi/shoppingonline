@@ -9,6 +9,7 @@
           </button>
           <a class="navbar-brand" href="${contextPath}/index">Project name</a>
         </div>
+       
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
             <li class="active"><a href="${contextPath}/index">Home</a></li>
@@ -19,18 +20,17 @@
             <li><a href="${contextPath}/productlist">Product List</a></li> 
             <li><a href="${contextPath}/cart">Cart</a></li>
             <li><a href="${contextPath}/adminpanels">Admin Panel</a></li>
-         	<li><a href="${contextPath}/userpanels">User Panel</a></li>
+         	<li><a href="${contextPath}/userpanel">User Panel</a></li>
          	
-                    </ul>
+         	 <!--search toggle form-->
+                </ul>
                     <form class="navbar-form navbar-left">
 				<div class="input-group">
 					<input type="text" class="form-control" placeholder="Search Here Anything">
 					<span class="input-group-btn">
 						<button class="btn btn-primary" type="button">
 							<span class="glyphicon glyphicon-search"></span>
-						</button>
-                
-          </ul>
+				          </ul>
         </div><!--/.nav-collapse -->
       </div>
     </nav>
