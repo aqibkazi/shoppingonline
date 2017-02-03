@@ -1,6 +1,6 @@
 package com.niit.backend.DAO;
 
-import com.niit.ecom.entity.Cart;
+import com.niit.backend.entity.Cart;
 
 public interface CartDAO {
 
