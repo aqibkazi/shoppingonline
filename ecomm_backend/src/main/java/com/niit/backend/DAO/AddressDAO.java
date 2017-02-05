@@ -2,6 +2,8 @@ package com.niit.backend.DAO;
 
 import java.util.List;
 
+import javax.mail.Address;
+
 public interface AddressDAO {
 	
 List<AddressDAO> list(int userId);
@@ -12,7 +14,8 @@ List<AddressDAO> list(int userId);
 	
 	boolean deleteAddress(AddressDAO address);
 	
-	AddressDAO get(int id);
+	 void get(int id);
+
 }
 
 

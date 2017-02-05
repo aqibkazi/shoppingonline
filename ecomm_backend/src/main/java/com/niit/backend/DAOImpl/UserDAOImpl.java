@@ -1,5 +1,5 @@
 package com.niit.backend.DAOImpl;
 
-public class ProductDAOImpl {
-	
+public class UserDAOImpl {
 
+}
