@@ -41,7 +41,7 @@ public class CategoryDAOTestCases {
 	 */
 	/*
 	 * @Test public void updateCategoryTest(){ category = categoryDAO.get(2);
-	 * category.setDescription("This is nylon category");
+	 * category.setDescription("This is shirt category");
 	 * Assert.assertEquals(true, categoryDAO.updateCategory(category)); }
 	 */
 
@@ -52,7 +52,7 @@ public class CategoryDAOTestCases {
 	/*
 	 * @Test public void addCategoryTest() { category.setId(2);
 	 * category.setName("Reebok");
-	 * category.setDescription("This is the cotton category");
+	 * category.setDescription("This is the T-shirt category");
 	 * Assert.assertEquals(true, categoryDAO.addCategory(category)); }
 	 */
 
