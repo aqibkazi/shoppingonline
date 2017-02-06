@@ -42,7 +42,7 @@ public class AddressDAOTestCases {
 	/*@Test
 	public void addAddressTest(){
 		address.setId(2);
-		address.setFirstName("Aaqib");
+		address.setFirstName("Aqib");
 		address.setLastName("Kazi");
 		address.setUserId(1);
 		address.setLineOne("Chawl No. 1, Chawl N, Room No. 4");

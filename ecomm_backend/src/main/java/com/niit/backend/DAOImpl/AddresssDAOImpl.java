@@ -8,47 +8,30 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.niit.backend.DAO.ProductDAO;
-import com.niit.backend.entity.Product;
+import com.niit.backend.DAO.AddressDAO;
+import com.niit.backend.entity.Address;
 
-@Repository("productDAO")
-public class ProductDAOImpl implements ProductDAO {
+@Repository("addressDAO")
+public class AddresssDAOImpl implements AddressDAO{
 
 	@Autowired
 	private SessionFactory sessionFactory;
-
+	
 	@Override
 	@Transactional
-	public Product get(int id) {
-		return (Product) sessionFactory.getCurrentSession().get(Product.class, id);
-	}
-
-	@Override
-	@Transactional
-	public List<Product> list() {
-		String hql = "FROM PRODUCTS";
+	public List<Address> list(int userId) {
+		String hql = "From Addresses WHERE USER_ID = :userId";
 		Query query = sessionFactory.getCurrentSession().createQuery(hql);
-		System.out.println(query.list());
+		query.setParameter("userId", userId);
 		return query.list();
 	}
 
 	@Override
 	@Transactional
-	public boolean addProduct(Product product) {
+	public boolean addAddress(Address address) {
 		try {
-			sessionFactory.getCurrentSession().persist(product);
-			return true;
-		} catch (Exception e) {
-			e.printStackTrace();
-			return false;
-		}
-	}
-
-	@Override
-	@Transactional
-	public boolean updateProduct(Product product) {
-		try {
-			sessionFactory.getCurrentSession().update(product);
+			address.setDefaultAddress(false);
+			sessionFactory.getCurrentSession().save(address);
 			return true;
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -59,9 +42,9 @@ public class ProductDAOImpl implements ProductDAO {
 
 	@Override
 	@Transactional
-	public boolean deleteProduct(Product product) {
+	public boolean updateAddress(Address address) {
 		try {
-			sessionFactory.getCurrentSession().delete(product);
+			sessionFactory.getCurrentSession().update(address);
 			return true;
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -71,10 +54,20 @@ public class ProductDAOImpl implements ProductDAO {
 
 	@Override
 	@Transactional
-	public Product getByCategory(int categoryId) {
-		return (Product) sessionFactory.getCurrentSession().get(Product.class, categoryId);
+	public boolean deleteAddress(Address address) {
+		try {
+			sessionFactory.getCurrentSession().delete(address);
+			return true;
+		} catch (Exception e) {
+			e.printStackTrace();
+			return false;
+		}
+	}
+
+	@Override
+	@Transactional
+	public Address get(int id) {
+		return (Address) sessionFactory.getCurrentSession().get(Address.class, id);
 	}
 
 }
-	
-
