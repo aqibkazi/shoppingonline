@@ -2,79 +2,45 @@ package com.niit.backend.DAOImpl;
 
 import java.util.List;
 
-import org.hibernate.SessionFactory;
-import org.hibernate.query.Query;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Repository;
-import org.springframework.transaction.annotation.Transactional;
-
 import com.niit.backend.DAO.ProductDAO;
 import com.niit.backend.entity.Product;
 
-@Repository("productDAO")
 public class ProductDAOImpl implements ProductDAO {
 
-	@Autowired
-	private SessionFactory sessionFactory;
-
 	@Override
-	@Transactional
 	public Product get(int id) {
-		return (Product) sessionFactory.getCurrentSession().get(Product.class, id);
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 	@Override
-	@Transactional
-	public List<Product> list() {
-		String hql = "FROM PRODUCTS";
-		Query query = sessionFactory.getCurrentSession().createQuery(hql);
-		System.out.println(query.list());
-		return query.list();
+	public List<ProductDAO> list() {
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 	@Override
-	@Transactional
-	public boolean addProduct(Product product) {
-		try {
-			sessionFactory.getCurrentSession().persist(product);
-			return true;
-		} catch (Exception e) {
-			e.printStackTrace();
-			return false;
-		}
+	public boolean addProduct(ProductDAO product) {
+		// TODO Auto-generated method stub
+		return false;
 	}
 
 	@Override
-	@Transactional
-	public boolean updateProduct(Product product) {
-		try {
-			sessionFactory.getCurrentSession().update(product);
-			return true;
-		} catch (Exception e) {
-			e.printStackTrace();
-			return false;
-		}
-		
+	public boolean updateProduct(ProductDAO product) {
+		// TODO Auto-generated method stub
+		return false;
 	}
 
 	@Override
-	@Transactional
-	public boolean deleteProduct(Product product) {
-		try {
-			sessionFactory.getCurrentSession().delete(product);
-			return true;
-		} catch (Exception e) {
-			e.printStackTrace();
-			return false;
-		}
+	public boolean deleteProduct(ProductDAO product) {
+		// TODO Auto-generated method stub
+		return false;
 	}
 
 	@Override
-	@Transactional
-	public Product getByCategory(int categoryId) {
-		return (Product) sessionFactory.getCurrentSession().get(Product.class, categoryId);
+	public ProductDAO getByCategory(int categoryId) {
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 }
-	
-

@@ -8,14 +8,12 @@ public interface AddressDAO {
 	
 List<AddressDAO> list(int userId);
 	
-	boolean addAddress(AddressDAO address);
+	boolean addAddress(Address address);
 	
-	boolean updateAddress(AddressDAO address);
+	boolean updateAddress(Address address);
 	
-	boolean deleteAddress(AddressDAO address);
+	boolean deleteAddress(Address address);
 	
-	 void get(int id);
-
 }
 
 

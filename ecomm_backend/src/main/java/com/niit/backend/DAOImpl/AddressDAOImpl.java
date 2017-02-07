@@ -2,33 +2,34 @@ package com.niit.backend.DAOImpl;
 
 import java.util.List;
 
-import com.niit.backend.DAO.OrderDAO;
-import com.niit.backend.DAO.OrderItemDAO;
+import javax.mail.Address;
 
-public class OrderItemDAOImpl implements OrderItemDAO {
+import com.niit.backend.DAO.AddressDAO;
+
+public class AddressDAOImpl implements AddressDAO {
 
 	@Override
-	public List<OrderDAO> list(int id) {
+	public List<AddressDAO> list(int userId) {
 		// TODO Auto-generated method stub
 		return null;
 	}
 
 	@Override
-	public boolean addOrderItem(OrderDAO orderItem) {
+	public boolean addAddress(Address address) {
 		// TODO Auto-generated method stub
 		return false;
 	}
 
 	@Override
-	public boolean deleteOrderItem(OrderDAO orderItem) {
+	public boolean updateAddress(Address address) {
 		// TODO Auto-generated method stub
 		return false;
 	}
 
 	@Override
-	public OrderDAO get(int id) {
+	public boolean deleteAddress(Address address) {
 		// TODO Auto-generated method stub
-		return null;
+		return false;
 	}
 
 }
