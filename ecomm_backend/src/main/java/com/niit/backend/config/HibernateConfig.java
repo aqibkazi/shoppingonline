@@ -22,7 +22,7 @@ public class HibernateConfig {
 	public DataSource getDataSource() {
 		BasicDataSource dataSource = new BasicDataSource();
 		dataSource.setDriverClassName("org.h2.Driver");
-		dataSource.setUrl("jdbc:h2:tcp://localhost/~/webtemp");
+		dataSource.setUrl("jdbc:h2:tcp://localhost/~/temp");
 		dataSource.setUsername("sa");
 		dataSource.setPassword("sa");
 		return dataSource;

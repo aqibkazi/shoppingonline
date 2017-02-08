@@ -46,7 +46,7 @@ public class SpringSecurityConfig extends WebSecurityConfigurerAdapter{
 				.usersByUsernameQuery("SELECT USER_EMAIL, USER_PASSWORD, USER_ENABLED FROM USERS WHERE USER_EMAIL = ?");
 	
 		
-	/*auth.inMemoryAuthentication().withUser("ansarifaisal480@gmail.com").password("test").roles("USER");*/
+	/*auth.inMemoryAuthentication().withUser("aqibkazi97@gmail.com").password("test").roles("USER");*/
 	}
 }
 

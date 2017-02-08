@@ -1,10 +1,9 @@
 package com.niit.backend.DAOImpl;
 
 import java.util.List;
-
 import javax.mail.Address;
-
 import com.niit.backend.DAO.AddressDAO;
+
 
 public class AddressDAOImpl implements AddressDAO {
 

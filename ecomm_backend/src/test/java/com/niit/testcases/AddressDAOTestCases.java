@@ -35,7 +35,7 @@ public class AddressDAOTestCases {
 	/*@Test
 	public void updateAddressTest(){
 		address = addressDAO.get(1);
-		address.setCity("Delhi");
+		address.setCity("Bangalore");
 		Assert.assertEquals(true, addressDAO.updateAddress(address));
 	}
 	*/
@@ -45,7 +45,7 @@ public class AddressDAOTestCases {
 		address.setFirstName("Aqib");
 		address.setLastName("Kazi");
 		address.setUserId(1);
-		address.setLineOne("Chawl No. 1, Chawl N, Room No. 4");
+		address.setLineOne("Chawl No. 1, Room No. 4");
 		address.setLineTwo("Jamil Nagar Bhandup");
 		address.setCity("Mumbai");
 		address.setState("Maharashtra");
