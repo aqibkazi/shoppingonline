@@ -79,10 +79,10 @@ public class PageController {
 		return mv;
 	}
 	
-	@RequestMapping(value = "/userpanel")
+	@RequestMapping(value = "/userpanels")
 	public ModelAndView user() {
 		ModelAndView mv = new ModelAndView("page");
-		mv.addObject("title", "user");
+		mv.addObject("title", "userpanels");
 		mv.addObject("ififUserClickedUser", true);
 		return mv;
 	}

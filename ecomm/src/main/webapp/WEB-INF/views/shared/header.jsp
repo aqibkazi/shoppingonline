@@ -20,9 +20,8 @@
             <li><a href="${contextPath}/productlist">Product List</a></li> 
             <li><a href="${contextPath}/cart">Cart</a></li>
             <li><a href="${contextPath}/adminpanels">Admin Panel</a></li>
-         	<li><a href="${contextPath}/userpanel">User Panel</a></li>
-         	
-         	 <!--search toggle form-->
+       	   <li><a href="${contextPath}/userpanels">User Panel</a></li>
+       	     <!--search toggle form-->
                 </ul>
                     <form class="navbar-form navbar-left">
 				<div class="input-group">
@@ -30,7 +29,8 @@
 					<span class="input-group-btn">
 						<button class="btn btn-primary" type="button">
 							<span class="glyphicon glyphicon-search"></span>
-				          </ul>
+				          </ul>		       
         </div><!--/.nav-collapse -->
       </div>
     </nav>
+         	
