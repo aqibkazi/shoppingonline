@@ -79,14 +79,6 @@ public class PageController {
 		return mv;
 	}
 	
-	@RequestMapping(value = "/userpanels")
-	public ModelAndView user() {
-		ModelAndView mv = new ModelAndView("page");
-		mv.addObject("title", "userpanels");
-		mv.addObject("ififUserClickedUser", true);
-		return mv;
-	}
-	
 	/* End of the loading product page */
 }
 	

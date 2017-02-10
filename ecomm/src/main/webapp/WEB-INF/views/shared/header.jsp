@@ -20,7 +20,6 @@
             <li><a href="${contextPath}/productlist">Product List</a></li> 
             <li><a href="${contextPath}/cart">Cart</a></li>
             <li><a href="${contextPath}/adminpanels">Admin Panel</a></li>
-       	   <li><a href="${contextPath}/userpanels">User Panel</a></li>
        	     <!--search toggle form-->
                 </ul>
                     <form class="navbar-form navbar-left">

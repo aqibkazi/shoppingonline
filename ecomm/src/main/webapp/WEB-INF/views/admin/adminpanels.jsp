@@ -1,4 +1,4 @@
-			<div class="tab-content clearfix">
+<div class="tab-content clearfix">
 				<!--Add Product-->
 				<div class="tab-pane active" id="Product">
 					<h3 class="text-center">
@@ -17,7 +17,7 @@
 									<div class="col-md-1"></div>
 
 									<div class="col-md-10">
-	
+									
 										<div class="form-group">
 											<label for="username"> Product Name </label>
 											<div class="input-group">
@@ -64,9 +64,14 @@
 													placeholder="Enter a Price" required="required" />
 											</div>
 										</div>
-
-
-
+										
+										<div class="form-group">
+											<label for="username"> Set Product Quantity </label>
+										 <td class="product-quantity">
+                                <input type="number" value="1" min="1" class="fl qty-text" name="quantity">
+                            </td>
+	
+									
 										<div class="form-group">
 											<label for="username"> Add a Product Description </label>
 											<div class="input-group">
@@ -101,38 +106,29 @@
 						</div>
 					</div>
 
-					<div class="col-md-12 text-center">
-						<button id="B6size" type="submit" class="btn btn-primary"
-							id="btnSignup">View All Product</button>
-					</div>
+				 <!-- Trigger the modal with a button -->
+  <div class="col-md-12 text-center">
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">View All Product</button>
 
-				</div>
-				<!--End Of Add Product-->
-				<!--Seller-->
-				<div class="tab-pane" id="Seller">
-					<h3 class="text-center">
-						<small style="font-size: 23px"><span
-							class="fa fa-database"></span></small>&nbsp; Add a Seller
-					</h3>
-					<hr class="small">
-					<div class="col-md-2">
-						<!--<span class="fa fa-user-circle-o" style="font-size:250px"></span>-->
-					</div>
-
-				</div>
-				<!--End Of Developer-->
-
-				<!--Category-->
-				<div class="tab-pane" id="Categories">
-
-					<h3 class="text-center">
-						<small style="font-size: 23px"><span
-							class="fa fa-database"></span></small>&nbsp; Add a Category
-					</h3>
-					<hr class="small">
-					<div class="col-md-2">
-						<!--<span class="fa fa-user-circle-o" style="font-size:250px"></span>-->
-					</div>
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">View All Product</h4>
+        </div>
+        <div class="modal-body">
+          <p>View Your Product Here</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+	</div>
 
 				</div>
 
@@ -141,4 +137,6 @@
 	</div>
 </div>
 	
-										
+
+
+				

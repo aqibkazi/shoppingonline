@@ -80,11 +80,6 @@
 	<%@include file="./admin/adminpanels.jsp"%>
 	</c:if>
 	
-	<!-- To Load User Page -->
-	<c:if test="${ifUserClickedUser == true}">	
-	<%@include file="./user/userpanels.jsp"%>
-	</c:if>
-	
   <!-- Footer here -->	
    <%@include file="./shared/footer.jsp" %>
     
